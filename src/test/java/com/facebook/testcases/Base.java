@@ -3,9 +3,7 @@ package com.facebook.testcases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -160,13 +158,4 @@ public class Base {
 
 	}
 	
-	//To enter a random emailID
-		public String randomEmail() {
-		String genaratedString = RandomStringUtils.randomAlphabetic(5);
-		String randomEmail = genaratedString+"@gmail.com";
-		return randomEmail;
-	}
-	
-	
-
 }

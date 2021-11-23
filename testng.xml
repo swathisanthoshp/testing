@@ -7,11 +7,11 @@
 
 	<test name="Validating Page Title">
 		<classes>
-			<class name="com.facebook.testcases.TestCase1" />
-			<class name="com.facebook.testcases.TestCase2" />
-			<class name="com.facebook.testcases.TestCase3" />
-			<class name="com.facebook.testcases.TestCase4" />
-			<class name="com.facebook.testcases.TestCase5" />
+			<class name="com.facebook.testcases.PageTitleValidation" />
+			<class name="com.facebook.testcases.HomePageTextValidation" />
+			<class name="com.facebook.testcases.LoginError" />
+			<class name="com.facebook.testcases.ForgotPassword" />
+			<class name="com.facebook.testcases.Login" />
 			
 		</classes>
 	</test>

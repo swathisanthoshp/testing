@@ -1,9 +1,7 @@
 package com.facebook.pageobjects;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import com.facebook.testcases.Base;
 
@@ -22,7 +20,7 @@ public class HomePage extends Base {
 	By email = By.id("email");
 	By password = By.id("pass");
 	By logIn = By.name("login");
-	By errorMessage = By.className("uiHeaderTitle");
+	By errorMessage = By.className("_9ay7");
 	By forgotPasswordTab = By.linkText("Forgotten password?");
 	
 	
@@ -33,11 +31,8 @@ public class HomePage extends Base {
 	}
 	
 	//To enter email id into the text box
-	public void enterEmailID(String emailid) {
-		System.out.println("Email Id for textbox: " + emailid);
-		System.out.println("Drive is null: " + (driver == null));
-		System.out.println("Email element exists?: " + (driver.findElement(email) != null));
-		driver.findElement(email).sendKeys(emailid);
+	public void enterEmailID(String emailID) {
+		driver.findElement(email).sendKeys(emailID);
 	}
 	
 	

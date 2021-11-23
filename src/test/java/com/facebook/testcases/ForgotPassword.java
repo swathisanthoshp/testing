@@ -9,13 +9,13 @@ import com.facebook.pageobjects.HomePage;
 
 import junit.framework.Assert;
 
-public class TestCase4 extends Base {
+public class ForgotPassword extends Base {
 	//Click on "Forgot Password" button .User must navigate to Find account Page.
 	
 	WebDriver driver;
 	
 	//Logger
-	public static Logger log = LogManager.getLogger(TestCase4.class.getClass());
+	public static Logger log = LogManager.getLogger(ForgotPassword.class.getClass());
 	
 	//TestCase
 	

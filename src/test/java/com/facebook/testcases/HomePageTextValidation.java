@@ -8,17 +8,17 @@ import org.testng.annotations.Test;
 
 import com.facebook.pageobjects.HomePage;
 
-public class TestCase2 extends Base {
+public class HomePageTextValidation extends Base {
 
 	//To check if the text below facebook is "Facebook helps you connect and share with the people in your life"
 	
-	public static Logger log = LogManager.getLogger(TestCase2.class.getName());
+	public static Logger log = LogManager.getLogger(HomePageTextValidation.class.getName());
 	
 	WebDriver driver;
 	@Test
 	public void testCase() {
 		driver = initializeBrowser("Chrome");
-		log.info("Entered into TestCase1");
+		log.info("Entered into TestCase2");
 		log.info("driver is initialized for TestCase2");
 		
 		//To capture text

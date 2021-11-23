@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 
-public class TestCase1 extends Base{
+public class PageTitleValidation extends Base{
 
 	//Code to execute TS-1
 	//To check if the title of the page matches the requirement.
 	
 	//logger
-		public static Logger log =LogManager.getLogger(TestCase1.class.getName());
+		public static Logger log =LogManager.getLogger(PageTitleValidation.class.getName());
 	
 	WebDriver driver;
 	
